@@ -5,6 +5,9 @@
   }
   
   header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
     height: 30px;
     position: relative;
     border-bottom: 5px solid rgb(196, 157, 53);
@@ -109,4 +112,8 @@
   
   .grow:hover {
       transform: scale(1.1);
+  }
+
+  #contact-form {
+    
   }
