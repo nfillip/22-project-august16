@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cherry Bomb One", cursive;
+  }
+  
+  header {
+    height: 30px;
+    position: relative;
+    border-bottom: 5px solid rgb(196, 157, 53);
+    background-color: rgb(28, 134, 94);
+  }
+  
+  
+  .first-section {
+    border-bottom: 2.5px solid rgb(196, 157, 53);
+    
+  }
+  
+  li {
+    display: inline;
+    margin: 5px;
+    color: white;
+    font-size: 90%;
+  }
+  
+  ul {
+    text-align: right;
+    text-height: 5px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+      text-align: center;
+      margin: 0 auto;
+  }
+  
+  input {
+      width: 300px;
+      margin: auto;
+  }
+  
+  form {
+      position: relative;
+      width: 20%;
+      margin: 7px auto;
+      text-align: center;
+      border: solid rgb(196, 157, 53);
+      padding: 5px 50px;
+      border-radius: 10px;
+  }
+  img {
+    display: block;
+    margin: 10px auto;
+    height: 500 px;
+    width: 500 px;
+    background-color: rgb(199, 187, 153);
+    padding: 10px;
+    border: 10px solid rgb(78, 76, 76);
+  }
+  
+  .section-two {
+      background-color: rgb(199, 191, 171);
+      padding: 5px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .center-nav {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+  }
+  
+  button {
+      background-color:rgb(78, 76, 76);
+      color: white;
+      width: 100px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+  }
+  
+  footer {
+      background-color: rgb(28, 134, 94);
+      color: white;
+      padding-top: 10px; 
+      font-size: 90%;
+      text-align: center;
+      }
+  
+  a:link, a:visited {
+      color: white;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      color: blueviolet;
+  }
+  
+  .grow {
+      transition: all .2s ease-in-out;
+  }
+  
+  .grow:hover {
+      transform: scale(1.1);
+  }
